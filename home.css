@@ -133,3 +133,39 @@ a.banner_btn {
     line-height: 150%;
     padding-top: 15px;
 }
+
+/*feedback*/
+.feedback_wrapper {
+    text-align: center;
+    padding-top: 50px;
+}
+.feedbox_wrapper {
+    display: grid;
+    grid-gap: 30px;
+    padding-bottom: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.feedbox {
+    padding: 30px;
+    border: 3px solid var(--theme-blue);
+}
+.student_img {
+    width: 75px
+}
+.student_img > img {
+    width: 100%;
+    border-radius: 50%;
+}
+.fdbk {
+    font-size: 15px;
+    padding: 30px 0;
+    line-height: 150%;
+}
+
+
+/*media query*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
