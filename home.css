@@ -1,1 +1,135 @@
 @import url("./common.css");
+
+/*banner*/
+section.banner {
+	background: var(--theme-blue);
+}
+.banner_intwrapper {
+	display: flex;
+	align-items: center;
+}
+.banner_text_wrapper {
+	padding-left: 25px;
+	text-align: center;
+}
+.banner_img {
+	width: 50%;
+}
+.banner_img > img {
+	width: 100%;
+}
+h1 {
+	font-size: 25px;
+	padding-bottom: 20px;
+	color: var(--default-white);
+}
+a.banner_btn {
+	padding: 10px;
+	background: white;
+	border-radius: 8px;
+	text-decoration: none;
+	color: var(--theme-blue);
+}
+
+/*====================*/
+.intro_wrapper {
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.intro_perks {
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.intro_perks > img {
+    width: 65px;
+}
+.intro_perks > h3 {
+    font-size: 15px;
+}
+.intro_perks_content {
+    font-size: 15px;
+}
+
+/*batches*/
+.batches_wrapper {
+    padding-top: 50px;
+    text-align: center;
+}
+.batch_box_wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.batch_box {
+    padding: 20px;
+    line-height: 150%;
+    border-radius: 11px;
+    border: 3px solid var(--theme-blue);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+}
+.batch_box_head {
+    padding-bottom: 20px;
+    color: var(--theme-blue);
+}
+.batch_box_details {
+    font-size: 15px;
+}
+.batch_box_details > b {
+    font-size: 15px;
+}
+.batches_button {
+    background: var(--theme-blue);
+    border: none;
+    padding: 15px 35px;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+/*call*/
+
+.rcall_wrapper{
+    padding-top: 50px;
+}
+.rcall_intwrapper {
+    text-align: center;
+    background: var(--theme-blue);
+    padding: 40px 0;
+}
+.rcall_intwrapper img {
+    width: 55px;
+    padding-top: 13px;
+}
+
+
+/*project*/
+.lproject_wrapper {
+    text-align: center;
+    padding-top: 50px;
+}
+.project_tab_wrapper {
+    display: grid;
+    grid-gap: 20px;
+    padding-top: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.project_tab {
+    background: var(--theme-blue);
+    padding: 40px;
+    box-shadow: 0px 0px 8px -1px rgba(0,0,0,1);
+}
+.project_tab_intwrapper h3 {
+    font-size: 18px;
+    color: #fff;
+}
+.project_tab_intwrapper p {
+    color: #fff;
+    font-size: 13px;
+    line-height: 150%;
+    padding-top: 15px;
+}

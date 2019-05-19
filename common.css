@@ -9,8 +9,6 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	font-family: 'Lato', sans-serif;
 }
 *{
-	margin: 0;
-	padding: 0;
 	box-sizing: border-box;
 }
 
@@ -21,54 +19,76 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	--theme-gray: #575656;
 }
 
+.hm_wrapper {
+    width: 75%;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
 /*header*/
+.clearboth{
+	clear: both;
+}
 .header_intwrapper{
 	padding: 10px 20px;
 }
 .logo_wrapper {
-    width: 80px;
-    margin-left: 30px;
-    display: inline-block;
-    vertical-align: middle;
+	width: 80px;
+	margin-left: 30px;
+	display: inline-block;
+	vertical-align: middle;
 }
 .logo_wrapper > a > img {
-    width: 100%;
+	width: 100%;
 }
 .header_links {
-    float: right;
-    padding: 10px;
-    text-align: right;
-    display: inline-block;
-    vertical-align: middle;
+	float: right;
+	padding: 10px;
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
 }
 .header_links > a {
-    padding-right: 30px;
-    text-decoration: none;
-    color: var(--default-black);
+	padding-right: 30px;
+	text-decoration: none;
+	color: var(--default-black);
 }
 
 /*footer*/
 footer {
-    background: var(--theme-gray);
+	background: var(--theme-gray);
 }
 .footer_intwrapper {
-    display: grid;
-    padding: 30px;
-    grid-gap: 100px;
-    grid-template-columns: 2fr 1fr 1fr;
+	display: grid;
+	padding: 30px;
+	grid-gap: 100px;
+	grid-template-columns: 2fr 1fr 1fr;
 }
 .footer_sec > p {
-    color: #949494;
+	color: #949494;
+	font-size: 14px;
+	line-height: 150%;
+	text-align: justify;
+}
+.footer_sec > b {
+	color: #949494;
+}
+.footer_sec > ul {
+	list-style-type: none;
+}
+.footer_sec > ul > li > a{
+	color: #949494;
     font-size: 14px;
     line-height: 150%;
     text-align: justify;
+	text-decoration: none;
 }
-.footer_sec > b {
-    color: #949494;
-}
-.footer_sec > ul {
-    list-style-type: none;
-}
-.footer_sec > ul > li {
-    line-height: 150%;
+.footer_sec > ul> li> img {
+	width: 50px;
+	float: left;
+	padding: 3px;
+	display: inline-block;
 }
