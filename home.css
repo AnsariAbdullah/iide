@@ -164,6 +164,27 @@ a.banner_btn {
 
 
 /*media query*/
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+	.banner_intwrapper {
+		display: block;
+	}
+	.intro_perks {
+		width: 50%;
+		display: inline-block;
+		float: left;
+	}
+	.intro_content_int_wrapper p {
+		text-align: justify;
+    	padding-bottom: 15px;
+	}
+	.batch_box_wrapper {
+		grid-template-columns: 1fr;
+	}
+	.project_tab_wrapper {
+		grid-template-columns: 1fr;
+	}
+	.feedbox_wrapper {
+		grid-template-columns: 1fr;
+	}
 
 }

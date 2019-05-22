@@ -20,12 +20,12 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 }
 
 .hm_wrapper {
-    width: 75%;
-    margin: 0 auto;
+	width: 75%;
+	margin: 0 auto;
 }
 h2 {
-    font-size: 28px;
-    padding-bottom: 10px;
+	font-size: 28px;
+	padding-bottom: 10px;
 }
 
 /*header*/
@@ -81,9 +81,9 @@ footer {
 }
 .footer_sec > ul > li > a{
 	color: #949494;
-    font-size: 14px;
-    line-height: 150%;
-    text-align: justify;
+	font-size: 14px;
+	line-height: 150%;
+	text-align: justify;
 	text-decoration: none;
 }
 .footer_sec > ul> li> img {
@@ -91,4 +91,21 @@ footer {
 	float: left;
 	padding: 3px;
 	display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+	.hm_wrapper {
+		width: 90%;
+	}
+	.banner_intwrapper {
+		display: block;
+	}
+	.banner_img {
+		width: 100% !important;
+	}
+
+	.footer_intwrapper {
+    	grid-gap: 25px;
+    	grid-template-columns: 1fr;
+	}
 }
